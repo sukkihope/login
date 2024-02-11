@@ -1,0 +1,46 @@
+ @input "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(https://img.freepik.com/premium-vector/blue-polygon-dark-background-square-social-template-vector_53876-170115.jpg?size=626&ext=jpg&ga=GA1.1.1923662529.1707114188&semt=ais) no-repeat;
+    background-size: 100%;
+}
+.login-box {
+    width: 280px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-65%);
+    color: white;
+    
+}
+.login-box h1 {
+    float: up;
+    font-size: 30px;
+    border-bottom: 2px solid #4caf50;
+    margin-bottom: 50px;
+    padding: 1px;
+    
+}
+.btn {
+    font-size: 15px;
+    color: #0000ff;
+    cursor: pointer;
+}
+.textbox {
+    width: 70%;
+    overflow: hidden;
+    font-size: 5px;
+    margin: 30px;
+    border-bottom: 1px solid #4caf50;
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox input {
+    font-size: 18px;
+    float: left;
+}
